@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock, paper, scissors</title>    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" /> 
+    <link rel="stylesheet" type="text/css" href="styles css/general.css">   
+    <link rel="stylesheet" type="text/css" href="styles css/newGame.css">   
+    <link rel="stylesheet" type="text/css" href="styles css/resultTableElement.css">   
+    <link rel="stylesheet" type="text/css" href="styles css/game.css">   
+</head>
+<body>
+    <div class="container">
+       <h1 class="new-game-menu">
+           Rock Paper Scissors<br>         
+           <span><i class="fa fa-hand-rock-o" aria-hidden="true"></i></span>
+           <span><i class="fa fa-hand-paper-o" aria-hidden="true"></i></span><br>
+           <span><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></span>
+       </h1>
+    </div>
+    <div id="js-newGameElement" class="container">
+        <div class="row text-center">
+            <button id="js-newGameButton" class="btn btn-default newGame-btn-style btn-lg">
+                New game
+            </button>
+        </div>
+    </div>
+    <div id="js-playerPickElement" class="container">
+        <div class="row text-center">
+            <button id="js-playerPick_rock" class="btn play-btn-style">
+                <span>
+                    <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
+                </span>
+                Rock
+            </button>
+            <button id="js-playerPick_paper"  class="btn play-btn-style">
+                <span>
+                    <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
+                </span>
+                Paper
+            </button>
+            <button id="js-playerPick_scissors"  class="btn play-btn-style">
+                <span>
+                    <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
+                </span>
+                Scissors
+            </button>
+        </div>
+    </div>
+    <div id="js-resultsTableElement" class="container resultsTableElement">
+        <div class="row">
+            <div class="col-xs-5 text-center">
+                <span id="js-playerPoints" class="badge-style">
+                    0
+                </span>
+                <span id="js-playerName" class="name-style">
+                    Player Name
+                </span>
+            </div>
+            <div class="col-xs-2 text-center">
+                <h1>VS</h1>
+            </div>
+            <div class="col-xs-5 text-center">
+                <span id="js-computerPoints" class="badge-style">
+                    0
+                </span>
+                <span class="name-style">Computer</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-5 text-center">
+                <h3><span id="js-playerPick" class="selection">
+                    Player selection
+                </span></h3>
+            </div>
+            <div class="col-xs-2"></div>
+            <div class="col-xs-5 text-center">
+                <h3><span id="js-computerPick" class="selection">
+                    Computer selection
+                </span></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-5 text-center">
+                <h4><span id="js-playerResult" class="selection">
+                    Player Score
+                </span></h4>
+            </div>
+            <div class="col-xs-2"></div>
+            <div class="col-xs-5 text-center">
+                <h4><span id="js-computerResult" class="selection">
+                    Computer Score
+                </span></h4>
+            </div>
+        </div>
+        <!-- <div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Round</th>
+                        <th>Player score</th>
+                        <th>Computer score</th>
+                    </tr>
+                </thead>
+                <tbody class="tbody-score">
+                    
+                </tbody>
+            </table>
+        </div> -->
+    </div>
+    <script type="text/javascript" src="js/scripts.js"></script>    
+</body>
+</html>
+

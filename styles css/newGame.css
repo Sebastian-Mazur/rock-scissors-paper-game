@@ -1,0 +1,37 @@
+/* line 6, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/general.sass */
+body {
+  background-color: #300032;
+  color: #e6e6e8;
+}
+
+/* line 10, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/general.sass */
+.btn-style, .newGame-btn-style {
+  background-color: #06000a;
+  border-color: #e6e6e8;
+  color: #e6e6e8;
+}
+
+/* line 3, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/newGame.sass */
+.new-game-menu {
+  text-align: center;
+  padding-top: 200px;
+}
+
+/* line 7, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/newGame.sass */
+.new-game-menu span i {
+  animation: rotate 6s infinite;
+  padding: 15px;
+  font-size: 80px;
+  color: #c43235;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=../styles css/newGame.map */

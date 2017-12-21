@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../style sass/game.css",
+	"sources": [
+		"../style sass/game.sass",
+		"../style sass/general.sass"
+	],
+	"sourcesContent": [
+		"@import \"general\";\n@import \"general\";\n\n.play-btn-style {\n    background-color: $blackColor;\n    border-color: $redColor;\n    color: $redColor;\n    font-size: 30px;\n    i {\n        color: $redColor;\n        font-size: 30px; }\n    &:hover {\n        color: $grayColor; } }\n\n.resultsTableElement {\n    margin-top: 30px; }\n\n.badge-style {\n    color: $redColor;\n    background-color: $blackColor;\n    border: 2px solid $redColor;\n    text-align: center;\n    font-size: 45px;\n    padding: 7px; }\n\n.name-style {\n    color: $grayColor;\n    font-size: 45px;\n    padding: 7px; }\n\n.selection {\n    color: $grayColor;\n    margin-bottom: 15px; }\n\n.win-style {\n    color: $colorGreen;\n    border: 2px solid $colorGreen;\n    background-color: $blackColor;\n    padding: 10px;\n    font-size: 25px; }\n\n",
+		"$grayColor: #e6e6e8;\n$redColor: #c43235;\n$blackColor: #06000a;\n$colorGreen: #1cd308;\n\nbody {\n    background-color: #300032;\n    color: $grayColor; }\n\n.btn-style {\n    background-color: $blackColor;\n    border-color: $grayColor;\n    color: $grayColor; }\n"
+	],
+	"mappings": ";ACKA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAPG,OAAO;CAOK;;;AAExB,AAAA,UAAU,CAAC;EACP,gBAAgB,EARP,OAAO;EAShB,YAAY,EAXJ,OAAO;EAYf,KAAK,EAZG,OAAO;CAYK;;;AAPxB,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAPG,OAAO;CAOK;;;AAExB,AAAA,UAAU,CAAC;EACP,gBAAgB,EARP,OAAO;EAShB,YAAY,EAXJ,OAAO;EAYf,KAAK,EAZG,OAAO;CAYK;;;ADTxB,AAAA,eAAe,CAAC;EACZ,gBAAgB,ECFP,OAAO;EDGhB,YAAY,ECJL,OAAO;EDKd,KAAK,ECLE,OAAO;EDMd,SAAS,EAAE,IAAK;CAKU;;;AAT9B,AAKI,eALW,CAKX,CAAC,CAAC;EACE,KAAK,ECRF,OAAO;EDSV,SAAS,EAAE,IAAK;CAAG;;;AAP3B,AAAA,eAAe,AAQV,MAAM,CAAC;EACJ,KAAK,ECZD,OAAO;CDYS;;;AAE5B,AAAA,oBAAoB,CAAC;EACjB,UAAU,EAAE,IAAK;CAAG;;;AAExB,AAAA,YAAY,CAAC;EACT,KAAK,ECjBE,OAAO;EDkBd,gBAAgB,ECjBP,OAAO;EDkBhB,MAAM,EAAE,GAAG,CAAC,KAAK,CCnBV,OAAO;EDoBd,UAAU,EAAE,MAAO;EACnB,SAAS,EAAE,IAAK;EAChB,OAAO,EAAE,GAAI;CAAG;;;AAEpB,AAAA,WAAW,CAAC;EACR,KAAK,EC1BG,OAAO;ED2Bf,SAAS,EAAE,IAAK;EAChB,OAAO,EAAE,GAAI;CAAG;;;AAEpB,AAAA,UAAU,CAAC;EACP,KAAK,EC/BG,OAAO;EDgCf,aAAa,EAAE,IAAK;CAAG;;;AAE3B,AAAA,UAAU,CAAC;EACP,KAAK,EChCI,OAAO;EDiChB,MAAM,EAAE,GAAG,CAAC,KAAK,CCjCR,OAAO;EDkChB,gBAAgB,ECnCP,OAAO;EDoChB,OAAO,EAAE,IAAK;EACd,SAAS,EAAE,IAAK;CAAG",
+	"names": []
+}

@@ -1,0 +1,20 @@
+@import "general"
+
+.new-game-menu
+    text-align: center    
+    padding-top: 200px
+    span        
+        i
+            animation: rotate 6s infinite
+            padding: 15px
+            font-size: 80px
+            color: $redColor
+
+@keyframes rotate
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(360deg)
+
+.newGame-btn-style 
+  @extend .btn-style

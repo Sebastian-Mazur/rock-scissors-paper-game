@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../style sass/newGame.css",
+	"sources": [
+		"../style sass/newGame.sass",
+		"../style sass/general.sass"
+	],
+	"sourcesContent": [
+		"@import \"general\";\n\n.new-game-menu {\n    text-align: center;\n    padding-top: 200px;\n    span {\n        i {\n            animation: rotate 6s infinite;\n            padding: 15px;\n            font-size: 80px;\n            color: $redColor; } } }\n\n@keyframes rotate {\n  from {\n    transform: rotate(0deg); }\n  to {\n    transform: rotate(360deg); } }\n\n.newGame-btn-style {\n  @extend .btn-style; }\n",
+		"$grayColor: #e6e6e8;\n$redColor: #c43235;\n$blackColor: #06000a;\n$colorGreen: #1cd308;\n\nbody {\n    background-color: #300032;\n    color: $grayColor; }\n\n.btn-style {\n    background-color: $blackColor;\n    border-color: $grayColor;\n    color: $grayColor; }\n"
+	],
+	"mappings": ";ACKA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAPG,OAAO;CAOK;;;AAExB,AAAA,UAAU,EDSV,ACTA,kBDSkB,CCTP;EACP,gBAAgB,EARP,OAAO;EAShB,YAAY,EAXJ,OAAO;EAYf,KAAK,EAZG,OAAO;CAYK;;;ADVxB,AAAA,cAAc,CAAC;EACX,UAAU,EAAE,MAAO;EACnB,WAAW,EAAE,KAAM;CAMY;;;AARnC,AAIQ,cAJM,CAGV,IAAI,CACA,CAAC,CAAC;EACE,SAAS,EAAE,kBAAmB;EAC9B,OAAO,EAAE,IAAK;EACd,SAAS,EAAE,IAAK;EAChB,KAAK,ECTN,OAAO;CDSa;;AAE/B,UAAU,CAAV,MAAU;EACR,AAAA,IAAI;IACF,SAAS,EAAE,YAAM;;EACnB,AAAA,EAAE;IACA,SAAS,EAAE,cAAM",
+	"names": []
+}

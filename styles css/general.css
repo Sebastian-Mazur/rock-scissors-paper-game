@@ -1,0 +1,14 @@
+/* line 6, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/general.sass */
+body {
+  background-color: #300032;
+  color: #e6e6e8;
+}
+
+/* line 10, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/general.sass */
+.btn-style {
+  background-color: #06000a;
+  border-color: #e6e6e8;
+  color: #e6e6e8;
+}
+
+/*# sourceMappingURL=../styles css/general.map */

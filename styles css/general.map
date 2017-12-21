@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../style sass/general.css",
+	"sources": [
+		"../style sass/general.sass"
+	],
+	"sourcesContent": [
+		"$grayColor: #e6e6e8;\n$redColor: #c43235;\n$blackColor: #06000a;\n$colorGreen: #1cd308;\n\nbody {\n    background-color: #300032;\n    color: $grayColor; }\n\n.btn-style {\n    background-color: $blackColor;\n    border-color: $grayColor;\n    color: $grayColor; }\n"
+	],
+	"mappings": ";AAKA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAPG,OAAO;CAOK;;;AAExB,AAAA,UAAU,CAAC;EACP,gBAAgB,EARP,OAAO;EAShB,YAAY,EAXJ,OAAO;EAYf,KAAK,EAZG,OAAO;CAYK",
+	"names": []
+}

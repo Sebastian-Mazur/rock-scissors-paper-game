@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../style sass/resultTableElement.css",
+	"sources": [
+		"../style sass/resultTableElement.sass"
+	],
+	"sourcesContent": [
+		".badge-style {\n    font-size: 40px; }\n"
+	],
+	"mappings": ";AAAA,AAAA,YAAY,CAAC;EACT,SAAS,EAAE,IAAK;CAAG",
+	"names": []
+}

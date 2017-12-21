@@ -1,0 +1,83 @@
+/* line 6, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/general.sass */
+body {
+  background-color: #300032;
+  color: #e6e6e8;
+}
+
+/* line 10, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/general.sass */
+.btn-style {
+  background-color: #06000a;
+  border-color: #e6e6e8;
+  color: #e6e6e8;
+}
+
+/* line 6, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/general.sass */
+body {
+  background-color: #300032;
+  color: #e6e6e8;
+}
+
+/* line 10, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/general.sass */
+.btn-style {
+  background-color: #06000a;
+  border-color: #e6e6e8;
+  color: #e6e6e8;
+}
+
+/* line 4, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/game.sass */
+.play-btn-style {
+  background-color: #06000a;
+  border-color: #c43235;
+  color: #c43235;
+  font-size: 30px;
+}
+
+/* line 9, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/game.sass */
+.play-btn-style i {
+  color: #c43235;
+  font-size: 30px;
+}
+
+/* line 12, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/game.sass */
+.play-btn-style:hover {
+  color: #e6e6e8;
+}
+
+/* line 15, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/game.sass */
+.resultsTableElement {
+  margin-top: 30px;
+}
+
+/* line 18, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/game.sass */
+.badge-style {
+  color: #c43235;
+  background-color: #06000a;
+  border: 2px solid #c43235;
+  text-align: center;
+  font-size: 45px;
+  padding: 7px;
+}
+
+/* line 26, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/game.sass */
+.name-style {
+  color: #e6e6e8;
+  font-size: 45px;
+  padding: 7px;
+}
+
+/* line 31, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/game.sass */
+.selection {
+  color: #e6e6e8;
+  margin-bottom: 15px;
+}
+
+/* line 35, E:/Front-endDeveloper/JavaScript/Zadanie 9.7/style sass/game.sass */
+.win-style {
+  color: #1cd308;
+  border: 2px solid #1cd308;
+  background-color: #06000a;
+  padding: 10px;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=../styles css/game.map */
